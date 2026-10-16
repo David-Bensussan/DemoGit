@@ -1,0 +1,24 @@
+DEMO IA : PROMPT FAIBLE CONTRE PROMPT FORT
+
+1. PROMPT FAIBLE 
+
+Fais moi une section de fonctionnalités jolie et moderne.
+
+
+2. PROMPT FORT (le ticket, 4 champs)
+
+Ajoute une section de 3 fonctionnalités dans la <section id="features"> sélectionnée.
+Stack : HTML + Tailwind Play CDN, aucun JavaScript.
+Comportement : une colonne sur mobile, trois colonnes à partir de md: (grid grid-cols-1 md:grid-cols-3 gap-8).
+Sémantique et accessibilité : un <h2> pour la section, un <article> par carte avec un <h3> et un <p>. Pas de div cliquable.
+Contraintes : garder id="features", uniquement des classes Tailwind standard (pas de couleurs perso), palette violet et slate.
+Contenu : Acme Studio, studio créatif. Cartes : Identité de marque, Sites produit, Accompagnement mensuel.
+
+
+3. CE QU'ON VÉRIFIE EN DIRECT AVANT D'ACCEPTER
+
+- Chaque classe existe ? (en cas de doute : tailwindcss.com/docs)
+- Un seul h1 sur la page, le h2 de la section vient bien après ?
+- Des <article>, pas des <div> partout ?
+- Réduire la fenêtre : 1 colonne puis 3 colonnes ?
+- Touche Tab : rien de cliquable sans focus visible ?
