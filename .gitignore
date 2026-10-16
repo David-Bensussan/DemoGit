@@ -1,0 +1,16 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Configuration locale / secrets
+.env
+.env.*
+gitcom.md
+
+# Dépendances
+node_modules/
+
+# Logs
+*.log
+
